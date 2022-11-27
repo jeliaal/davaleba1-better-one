@@ -1,0 +1,45 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: azure;
+}
+
+div {
+    z-index: 2;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: tomato solid;
+    padding: 10px;
+}
+
+h1 {
+    font-weight: bolder;
+    color: aqua;
+}
+
+h2 {
+    font-weight: bolder;
+    color: aqua;
+}
+
+input {
+    border: chartreuse 1px solid;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+button {
+    background-color: rgba(177, 10, 10, 0.767);
+    color: white;
+    margin-top: 3cm;
+    padding: 6px 9px;
+}
